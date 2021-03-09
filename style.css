@@ -1,0 +1,43 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+    body {
+        background-image: url("images/7213ea88-1861-40ef-bf79-6a206b56ca60.jpg");
+        background-color: #cccccc;
+       }
+
+ header{
+     width: 100%;
+     background-color:gray;
+     padding-top: 20px;
+ }
+ h1{
+     text-align: center;
+     position: relative;
+     top: -18px;
+ }
+
+ #formContainer{
+    width: 20%;
+    height: 40%;
+    display: inline-block;
+    position: relative;
+    top: 15vh;
+    left: 10vw;
+    background-color: honeydew;
+ }
+
+ #field{
+     text-align: center;
+     text-align: center;
+     padding-top: 34px;
+     padding-bottom: 34px;
+ }
+ #tableContainer{
+     display: inline-block;
+     width: 25%;
+     background-color: honeydew;
+     position: relative;
+     left: 40vw;
+ }

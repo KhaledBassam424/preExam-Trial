@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Car Garage</title>
+</head>
+
+<body>
+    <header>
+        <h1>My Own Garage</h1>
+    </header>
+    <main>
+        <div id="formContainer">
+            <form id="carInfo">
+
+                <fieldset id="field">
+                    <label for="cars">Choose a car:</label>
+                    <br>
+                    <select name="cars" id="cars">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                    <br><br>
+                    <label for="days">Number of days rented</label>
+                    <br>
+
+                    <input type="number" id="days">
+                    <br><br>
+                    <input type="submit" value="submit">
+                    <br>
+
+                </fieldset>
+            </form>
+        </div>
+
+        <div id="tableContainer"></div>
+        <table id="tablee">
+            <tr>
+                <th>car type</th>
+                <th>days</th>
+                <th>price</th>
+            </tr>
+        </table>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
